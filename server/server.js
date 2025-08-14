@@ -25,7 +25,7 @@ mongoose.set("debug", true);
 
 app.use(
     cors({
-        origin: ["https://blog-tech-sigma.vercel.app", "http://localhost:3000"],
+        origin: ["https://blog-tech-sigma.vercel.app", "http://localhost:3000", "https://gdgblogtech.hungproject.app"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     }),
